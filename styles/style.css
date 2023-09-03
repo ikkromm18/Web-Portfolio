@@ -4,8 +4,13 @@
 }
 
 body {
-  background-color: gray;
+  widt: 1280px;
+  background-color: #121212;
   font-family: "Montserrat", sans-serif;
+}
+
+.sorotan {
+  color: #02e080;
 }
 
 @font-face {
@@ -15,30 +20,113 @@ body {
 }
 
 /* NAVBAR */
+nav header {
+  width: 480px;
+  /* background-color: red; */
+}
 nav header h5 span {
   font-family: "raidercrusader", sans-serif;
   font-size: 15px;
+  /* color: #02e080; */
 }
 
 nav {
   widt: 1280px;
-  height: 40px;
-  background-color: black;
+  height: 50px;
+  background-color: #121212;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+.navigasi {
+  width: 400px;
+  /* background-color: red; */
+}
 nav ul {
+  /* background-color: green; */
   width: 300px;
   display: flex;
   list-style: none;
   justify-content: space-around;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
+}
+
+/* Akhir Navbar */
+
+/* Home */
+#home {
+  color: white;
+  widt: 1280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.home-article {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  /* background-color: red; */
+}
+.home-article h1 {
+  font-size: 45px;
+}
+
+.home-article > a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 1rem; */
+  font-weight: bold;
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  background-color: #02e080;
+  border-radius: 5px;
+}
+
+.sosmed {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  /* color: white; */
+  /* text-decoration: none; */
+}
+
+.sosmed a {
+  display: flex;
+  color: black;
+  background-color: #02e080;
+  text-decoration: none;
+  padding: 1px;
+  font-size: 1.5rem;
+}
+
+.blob {
+  width: 35%;
+  fill: #02e080;
+  /* background-color: white; */
+}
+
+.blob svg {
+  color: white;
 }
