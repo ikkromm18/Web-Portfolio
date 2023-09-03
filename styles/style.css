@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  width: 1415px;
+  display: flex;
+  background-color: #000;
+  justify-content: space-around;
+  color: #fff;
+  height: 50px;
+  align-items: center;
+}
+
+.myname {
+  /* color: white; */
+  font-family: "Kaushan Script", cursive;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 300px;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 940px;
+  margin-top: 1px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.cover img {
+  height: 656px;
+  width: 630px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+#pembuka {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 2em;
+  text-align: left;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+#about {
+  width: 945px;
+  /* width: 1355px; */
+  height: 200px;
+  background-color: #000;
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#project {
+  /* background-color: black; */
+  /* width: 1415px; */
+  width: 935px;
+  margin-top: 20px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* #me {
+  display: flex;
+  flex-direction: column;
+} */
+#me img {
+  width: 150px;
+}
+
+#contact header {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 400px;
+  padding-top: 60px;
+}
+
+footer {
+  margin-top: 10px;
+  padding: 20px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+}
+
+aside {
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+  background-color: black;
+  height: 625px;
+  width: 400px;
+  margin-left: 10px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content2 {
+  display: flex;
+}
+
+section h3 {
+  padding-top: 70px;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 20px;
+}
+table {
+  text-align: left;
+  margin-left: 20px;
+  /* padding: 2px; */
+  border-spacing: 2px;
+}
